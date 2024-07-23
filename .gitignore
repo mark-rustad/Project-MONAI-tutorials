@@ -153,5 +153,8 @@ deployment/ray/mednist_classifier_start.py
 *.nsys-rep
 auto3dseg/notebooks/datalist.json
 
-* ignore monai_data_dir
+# ignore monai_data_dir
 monai_data_dir
+
+# ignore nnU-Net workdir
+**/work_dir
