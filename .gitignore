@@ -153,6 +153,11 @@ deployment/ray/mednist_classifier_start.py
 *.nsys-rep
 auto3dseg/notebooks/datalist.json
 
+*.jpeg
+*.png
+*.np*
+*.pt
+
 # ignore monai_data_dir
 monai_data_dir
 
